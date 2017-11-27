@@ -1,3 +1,5 @@
+# Dockerfile reference https://docs.docker.com/engine/reference/builder/
+
 # Build from linux node:boron base image (with node and npm installed on it)
 FROM node:boron
 
