@@ -4,7 +4,7 @@
 FROM node:boron
 
 RUN mkdir -p /usr/src/CCGroup39-assignment02
-WORKDIR mkdir -p /usr/src/CCGroup39-assignment02
+WORKDIR /usr/src/CCGroup39-assignment02
 
 COPY package.json /usr/src/CCGroup39-assignment02
 RUN npm install
