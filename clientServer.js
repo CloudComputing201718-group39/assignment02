@@ -12,8 +12,8 @@
  *      3. Pushing and Pulling the image from docker hub
  *      4. Running Application inside a docker container
  *      5. Enable docker Remote API
- * Developed by 'Write Group Name'
- * Write Names of All Members
+ * Developed by 'Group 39'
+ * Vasiliki Sideri Lampretsa, Gabriela Hernandez, Stefan Su
  */
 // =============================================================================
 /**
@@ -161,7 +161,7 @@ router.route('/exercise1_task2')
 router.route('/exercise2')
     .get(function(req, res)
     {
-        res.send("");
+        res.send("group 39 application deployed using docker");
     });
 /**
  * REGISTER OUR ROUTES
